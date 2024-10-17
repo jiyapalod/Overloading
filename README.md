@@ -45,13 +45,13 @@ int main() {
 
 ### Function overloading:-
 
-1)Start
+1) Start
 
-2)Initialize the Program
+2) Initialize the Program
 
 Begin the program by including necessary libraries (e.g., #include <iostream> in C++).
 
-3)Define Functions
+3) Define Functions
 
 Function 1: Define a function add(int a, int b) that returns the sum of two integers.
 
@@ -59,7 +59,7 @@ Function 2: Define a function add(double a, double b) that returns the sum of tw
 
 Function 3: Define a function add(int a, int b, int c) that returns the sum of three integers.
 
-4)Main Function
+4) Main Function
 
 Start the main() function.
 Call Function 1:
@@ -74,7 +74,19 @@ Call Function 3:
 Invoke add(1, 2, 3) and store the result.
 Print the result of the addition of three integers.
 
-4)End Program
+5) End Program
 
 Return 0 to indicate successful execution of the program.
 End the main() function.
+
+
+### Operator Overloading:-
+1) Identify Class & Operator: Select the class and operator to be overloaded (e.g., `+`, `==`).  
+
+2) Decide Type: Choose whether to use a member function or a friend function based on operand types.  
+
+3) Declare the Operator Function: Define the operator function in the class or as a friend function.  
+
+4) Implement Logic: Write the code to perform the desired operation inside the function.  
+
+5) Test the Operator: Create objects and apply the operator to verify its behavior.  
